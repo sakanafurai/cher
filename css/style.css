@@ -317,6 +317,10 @@ div.article.card h2.page-title {
     margin-bottom: 3rem;
   }
 
+  div.article.card:last-of-type {
+    margin-bottom: 1.8rem;
+  }
+
   div.article.card h2.page-title {
     font-size: 2rem;
     margin: 0
