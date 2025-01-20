@@ -291,6 +291,10 @@ div.article.card {
   margin-bottom: 7.5rem;
 }
 
+div.article.card:last-of-type {
+  margin-bottom: 5rem;
+}
+
 div.article.card h2.page-title, div.article.card p.page-date {
   padding: 0 1.2rem;
 }
