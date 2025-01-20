@@ -291,7 +291,6 @@ div.article.card {
 }
 
 div.article.card h2.page-title, div.article.card p.page-date {
-  padding-left: 1.2rem;
   padding: 0 1.2rem;
 }
 
@@ -307,7 +306,6 @@ div.article.card h2.page-title {
 
   div.article.card h2.page-title {
     font-size: 2rem;
-    padding-left: 1.2rem;
     margin: 0
   }
 
@@ -318,7 +316,6 @@ div.article.card h2.page-title {
 
   div.article.card p.page-date {
     font-size: 1.5rem;
-    padding-left: 1.2rem;
   }
 }
 
