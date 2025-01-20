@@ -179,7 +179,11 @@ nav.navbar.mobile {
   ul.navbar-content > li.navbar-item {
     width: calc(50% - 1rem);
     border-bottom: 1px solid var(--title-color);
-    padding:  1rem 1rem 0.5rem 0.2rem;
+    padding:  1.5rem 2rem 1rem 0.2rem;
+  }
+
+  li.navbar-item a {
+    padding: 0;
   }
 
   li.navbar-item:nth-child(odd) {
