@@ -1,4 +1,4 @@
-<div class="article">
+<div class="article page">
 
 <!-- Title -->
   <h2 class="page-title"><?php echo $page->title(); ?></h2>
