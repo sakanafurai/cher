@@ -287,7 +287,8 @@ div.content hr {
 
 /* Cards on home */
 div.article.card {
-  padding: 2rem;
+  padding: 3.2rem 3.2rem 2.5rem 3.2rem;
+  margin-bottom: 7.5rem;
 }
 
 div.article.card h2.page-title, div.article.card p.page-date {
