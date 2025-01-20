@@ -303,6 +303,7 @@ div.article.card h2.page-title {
 @media screen and (max-width: 768px) {
   div.article.card {
     padding: 1rem;
+    margin-bottom: 3rem;
   }
 
   div.article.card h2.page-title {
