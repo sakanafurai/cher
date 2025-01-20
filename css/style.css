@@ -336,7 +336,13 @@ ul.pagination {
   flex-direction: row;
   align-items: flex-end;
   list-style: none;
-  padding: 1em 2em;
+  padding: 2rem 0rem;
+}
+
+@media screen and (max-width: 768px) {
+  ul.pagination {
+    padding: 2rem;
+  }
 }
 
 ul.pagination li {
