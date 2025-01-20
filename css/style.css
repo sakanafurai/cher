@@ -234,9 +234,13 @@ main div.article h2 {
 }
 
 main div.article h2.page-title {
-  margin: 1rem 0;
+  margin: 1rem;
   padding-bottom: 0;
   border:none;
+}
+
+main div.article p.page-date {
+  margin: 0 1rem;
 }
 
 main div.article h2.page-title a{
@@ -333,6 +337,7 @@ div.article.card h2.page-title {
 
   div.article.card p.page-date {
     font-size: 1.5rem;
+    margin: 0;
   }
 }
 
