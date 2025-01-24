@@ -218,9 +218,6 @@ main div.article {
     padding: 1.5rem 1rem 2rem 1rem;
     margin: 2rem 2rem 4rem 2rem;
   }
-  main div.article:first-of-type {
-    margin-top: 0.75rem;
-  }
 }
 
 main div.article h1, h2, h3, h4, h5, h6 {
