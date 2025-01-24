@@ -273,6 +273,10 @@ div.article img {
   margin: 1.5rem 0;
 }
 
+div.article.page img {
+  margin: 3rem 0;
+}
+
 div.article ul {
   padding-left: 2.2rem;
   margin-bottom: 2rem;
