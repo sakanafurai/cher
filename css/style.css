@@ -215,7 +215,7 @@ div.article {
 
 @media screen and (max-width: 768px) {
   div.article  {
-    padding: 1.5rem 1rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 2rem;
     margin: 2rem 2rem 4rem 2rem;
   }
 }
@@ -331,7 +331,7 @@ div.article.card p.page-date {
 
 @media screen and (max-width: 768px) {
   div.article.card {
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1.2rem 2rem 2rem 2rem;
     margin-bottom: 3rem;
   }
 
