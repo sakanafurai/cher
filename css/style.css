@@ -239,13 +239,13 @@ div.article h2 {
 }
 
 div.article h2.page-title {
-  margin: 1rem;
+  margin: 1rem 0;
   padding-bottom: 0;
   border:none;
 }
 
 div.article p.page-date {
-  margin: 0 1rem;
+  margin: 0;
 }
 
 div.article h2.page-title a{
@@ -312,7 +312,7 @@ div.article.card:last-of-type {
 }
 
 div.article.card h2.page-title, div.article.card p.page-date {
-  padding: 0 1.2rem;
+  padding: 0;
 }
 
 div.article.card h2.page-title {
