@@ -206,7 +206,7 @@ nav.navbar.mobile {
 }
 
 /* Main content */
-main div.article {
+div.article {
   position: relative;
   background: white;
   padding: 3rem 2rem 3rem 2rem;
@@ -214,22 +214,22 @@ main div.article {
 }
 
 @media screen and (max-width: 768px) {
-  main div.article  {
+  div.article  {
     padding: 1.5rem 1rem 2rem 1rem;
     margin: 2rem 2rem 4rem 2rem;
   }
 }
 
-main div.article h1, h2, h3, h4, h5, h6 {
+div.article h1, h2, h3, h4, h5, h6 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-main div.article p {
+div.article p {
   margin-bottom: 2.5rem;
 }
 
-main div.article h2 {
+div.article h2 {
   font-size: 2.2rem;
   font-weight: 700;
   margin-top: 4.5rem;
@@ -238,31 +238,31 @@ main div.article h2 {
   line-height: 1.25;
 }
 
-main div.article h2.page-title {
+div.article h2.page-title {
   margin: 1rem;
   padding-bottom: 0;
   border:none;
 }
 
-main div.article p.page-date {
+div.article p.page-date {
   margin: 0 1rem;
 }
 
-main div.article h2.page-title a{
+div.article h2.page-title a{
   color: #333;
 }
 
-main div.article h3 {
+div.article h3 {
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.25;
 }
 
-/*main div.article h4, h5 {
+/*div.article h4, h5 {
  *  margin-bottom: 0.5rem
  * }*/
 
-main div.article figure {
+div.article figure {
   margin: 0;
 }
 
@@ -272,7 +272,7 @@ div.article img {
   margin: 1.5rem;
 }
 
-main div.article ul {
+div.article ul {
   padding-left: 2.2rem;
   margin-bottom: 2rem;
 }
