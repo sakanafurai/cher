@@ -65,7 +65,7 @@ html {
 }
 
 body {
-  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Noto Sans JP','Noto Sans CJK JP','源ノゴシック','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+  font-family: Avenir, Lato, Helvetica, Roboto, Arial, sans-serif;
   background-color: var(--main-color);
   min-height: 100vh;
   max-width: 705px;
