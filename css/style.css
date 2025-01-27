@@ -94,7 +94,7 @@ a {
 
 /* Header */
 header {
-  padding: 6rem 1rem 2rem 0rem;
+  padding: 6rem 0 6rem 0;
   color: var(--title-color);
 }
 
