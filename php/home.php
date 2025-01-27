@@ -10,11 +10,9 @@
   <?php endif ?>
 
   <!-- Title -->
-  <?php if (!$page->isStatic() && !$url->notFound()): ?>
   <!-- Page data -->
     <h2 class="page-title"><?php echo $page->title(); ?></h2>
     <p class="page-date"><?php echo $page->date(); ?></p>
-  <?php endif ?>
 
   </div>
   <?php endforeach ?>
