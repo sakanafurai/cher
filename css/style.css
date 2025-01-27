@@ -225,10 +225,16 @@ div.article {
 div.article h1, h2, h3, h4, h5, h6 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 div.article p {
   margin-bottom: 2.5rem;
+}
+
+div.article h1 {
+  font-size: 2.5rem;
 }
 
 div.article h2 {
@@ -237,7 +243,6 @@ div.article h2 {
   margin-top: 4.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--link-color);
-  line-height: 1.25;
 }
 
 div.article h2.page-title {
@@ -257,13 +262,17 @@ div.article h2.page-title a{
 
 div.article h3 {
   font-size: 1.7rem;
-  font-weight: 700;
-  line-height: 1.25;
+
 }
 
-/*div.article h4, h5 {
- *  margin-bottom: 0.5rem
- * }*/
+div.article h4 {
+  font-size: 1.4rem;
+}
+
+div.article h5, h6 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem
+}
 
 div.article figure {
   margin: 0;
