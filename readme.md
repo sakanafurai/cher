@@ -3,6 +3,8 @@
 ## About
 Cher is a theme with cards like instant camera photos.
 
+[Live demo](https://via.rossa.cc/demo/cher)
+
 ## License
 MIT
 
