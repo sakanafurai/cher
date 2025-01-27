@@ -135,6 +135,7 @@ nav.navbar {
     align-items: flex-end;
     justify-content: center;
     list-style: none;
+    gap: 1.5rem;
   }
 
   li.navbar-item a {
@@ -142,7 +143,6 @@ nav.navbar {
     color: var(--title-color);
     font-weight: 700;
     text-decoration: none;
-    padding: 0.5em 1em 0.5em 0;
   }
 
   button.navbar-btn {
@@ -179,6 +179,7 @@ nav.navbar.mobile {
     z-index: 1;
     opacity: 0;
     transition: .6s;
+    gap: 0;
   }
 
   ul.navbar-content.active {
