@@ -176,6 +176,7 @@ nav.navbar.mobile {
   ul.navbar-content {
     display: none;
     position: relative;
+    justify-content: normal;
     z-index: 1;
     opacity: 0;
     transition: .6s;
