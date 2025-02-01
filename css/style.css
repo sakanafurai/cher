@@ -11,6 +11,8 @@
   --link-color: #8af;
   --title-color: #fff;
   --font-color: #5a5a5a;
+  --tag-color: #bbb;
+  --tag-inner-color: #fff;
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -316,6 +318,33 @@ div.content hr {
   div.article hr {
     margin: 30px 30px;
   }
+}
+
+/* Tags */
+div.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+span.tag {
+  background: var(--tag-color);
+  border: 1px solid var(--tag-inner-color);
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  color: var(--tag-inner-color);
+}
+
+span.tag svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  fill: var(--tag-inner-color);
+}
+
+span.tag a {
+  color: inherit;
 }
 
 /* Cards on home */
