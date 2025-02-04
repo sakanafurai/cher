@@ -185,6 +185,7 @@ nav.navbar.mobile {
     opacity: 0;
     transition: .6s;
     gap: 0;
+    padding-bottom: 2rem;
   }
 
   ul.navbar-content.active {
