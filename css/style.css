@@ -224,6 +224,12 @@ div.category-title h2 {
   font-size: 2.2rem;
 }
 
+@media screen and (max-width: 768px) {
+  div.category-title {
+    border-top: 1px solid var(--title-color)
+  }
+}
+
 div.article {
   position: relative;
   background: white;
