@@ -1,3 +1,9 @@
+  <div class="category-title">
+  <?php if ( $WHERE_AM_I == 'category' ): ?>
+    <h2 class="title"><?php echo $page->category(); ?></h2>
+  <?php endif ?>
+  </div>
+
 <!-- Post -->
   <?php foreach ($content as $page): ?>
   <div class="article card">
