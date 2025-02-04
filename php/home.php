@@ -2,6 +2,20 @@
   <?php if ( $WHERE_AM_I == 'category' ): ?>
     <h2 class="title"><?php echo $page->category(); ?></h2>
   <?php endif ?>
+
+  <?php
+  // Check if the user is browsing a tag
+  if ($WHERE_AM_I=='tag') {
+    // Get the tag key from the URL
+    $tagKey = $url->slug();
+
+    // Create the Tag-Object
+    $tag = new Tag($tagKey);
+
+    // Print the tag name
+    echo '<h2 class="title">'. $tag->name() . '</h2>';
+  }
+  ?>
   </div>
 
 <!-- Post -->
