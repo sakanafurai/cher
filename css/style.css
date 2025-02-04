@@ -190,7 +190,7 @@ nav.navbar.mobile {
 
   ul.navbar-content.active {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 0;
   }
 
   ul.navbar-content > li.navbar-item {
