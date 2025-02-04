@@ -100,12 +100,15 @@ header {
   color: var(--title-color);
 }
 
+header h1.title, figure.title-logo {
+  text-align: center;
+  margin: 6rem 0;
+}
+
 header h1.title {
   font-family: Borel;
   font-size: 3.5rem;
   font-weight: 700;
-  text-align: center;
-  margin: 6rem 0;
 }
 
 header h1.title a {
