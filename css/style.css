@@ -264,7 +264,6 @@ div.article h2 {
   font-weight: 700;
   margin-top: 4.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--link-color);
 }
 
 div.article h2.page-title {
@@ -272,6 +271,10 @@ div.article h2.page-title {
   margin: 1rem 0;
   padding-bottom: 0;
   border:none;
+}
+
+div.article h2.border {
+  border-bottom: 1px solid var(--link-color);
 }
 
 div.article p.page-date {
