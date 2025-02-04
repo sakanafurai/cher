@@ -2,7 +2,7 @@
   <div class="header-logo">
   <?php if ($site->logo()): ?>
     <figure class="title-logo">
-      <img class="image" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
+      <a href="<?php echo Theme::siteUrl() ?>"><img class="image" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>"></a>
     </figure>
   <?php else: ?>
     <h1 class="title"><a href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
