@@ -377,7 +377,8 @@ span.tag svg {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
-  fill: var(--tag-inner-color);
+  stroke: var(--tag-inner-color);
+  /*fill: var(--tag-inner-color);*/
 }
 
 span.tag a {
