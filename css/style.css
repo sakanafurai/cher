@@ -369,16 +369,18 @@ span.tag {
   border: 1px solid var(--tag-inner-color);
   border-radius: 1rem;
   margin-right: 0.5rem;
-  padding: 0.1rem 0.5rem;
+  padding: 0.2rem 1rem;
   color: var(--tag-inner-color);
+  font-size: 1.4rem;
 }
 
 span.tag svg {
-  width: 16px;
-  height: 16px;
+  width: 1.4rem;
+  height: 1.4rem;
   vertical-align: text-bottom;
   stroke: var(--tag-inner-color);
   /*fill: var(--tag-inner-color);*/
+  margin-right: 0.2rem;
 }
 
 span.tag a {
