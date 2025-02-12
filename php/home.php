@@ -1,6 +1,7 @@
-  <div class="category-title">
   <?php if ( $WHERE_AM_I == 'category' ): ?>
-    <h2 class="title"><?php echo $page->category(); ?></h2>
+    <div class="category-title">
+      <h2 class="title"><?php echo $page->category(); ?></h2>
+    </div>
   <?php endif ?>
 
   <?php
@@ -13,10 +14,9 @@
     $tag = new Tag($tagKey);
 
     // Print the tag name
-    echo '<h2 class="title">'. $tag->name() . '</h2>';
+    echo '<div class="category-title"><h2 class="title">'. $tag->name() . '</h2></div>';
   }
   ?>
-  </div>
 
 <!-- Post -->
   <?php foreach ($content as $page): ?>
